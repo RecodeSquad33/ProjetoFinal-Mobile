@@ -1,0 +1,23 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-conectamais-staging-202833-authRole",
+      "UnauthRoleArn": "arn:aws:iam::561111549605:role/amplify-conectamais-staging-202833-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::561111549605:role/amplify-conectamais-staging-202833-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-conectamais-staging-202833-deployment",
+      "UnauthRoleName": "amplify-conectamais-staging-202833-unauthRole",
+      "StackName": "amplify-conectamais-staging-202833",
+      "StackId": "arn:aws:cloudformation:us-east-1:561111549605:stack/amplify-conectamais-staging-202833/be90ecd0-6391-11ed-a5ba-123b6a4fc8d5",
+      "AmplifyAppId": "du63jrzmzu9wu"
+    },
+    "categories": {
+      "auth": {
+        "ConectaMais": {}
+      },
+      "api": {
+        "ConectaMais": {}
+      }
+    }
+  }
+}

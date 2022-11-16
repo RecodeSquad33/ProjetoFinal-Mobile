@@ -4,10 +4,10 @@
     "slug": "ConectaMais",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,17 +17,45 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "expo": {
+      "plugins": [
+        "expo-image-picker"
+      ],
+      "name": "ConectaMais",
+      "description": "Final Project RecodePro 2022, social app to connect educacional institutions with volnuteers.",
+      "ios": {
+        "supportsTablet": true
+      },
+      "android": {
+        "package": "br.com.squd33.conectamais"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3aa0bada-967e-48c6-88b1-015b50d5ef12"
+      }
+    },
+    "build": {
+      "preview": {
+        "android": {
+          "buildType": "apk"
+        }
+      },
+      "preview2": {
+        "android": {
+          "gradleCommand": ":app:assembleRelease"
+        }
+      },
+      "preview3": {
+        "developmentClient": true
+      },
+      "production": {}
+    },
+    "android": {
+      "package": "br.com.squad33.conectamais"
     }
   }
 }
